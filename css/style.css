@@ -1,0 +1,125 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+header {
+    background-color: white;
+    padding-top: 15px;
+}
+
+header .container {
+    max-width: 1064px;
+    height: 56px;
+    margin: auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+nav {
+    transform: translateX(0);
+    width: 395px;
+
+}
+
+nav ul li {
+    list-style: none;
+    margin-right: 28px;
+}
+
+nav ul {
+    display: flex;
+}
+
+nav ul li a {
+    font: 700 16px/26.4px 'Roboto', sans-serif;
+    color: #1C1B1B;
+    text-decoration: none;
+}
+
+nav .nav-links {
+    opacity: 1;
+    flex-direction: row;
+    align-items: center;
+    transform: translateX(0px);
+    padding-left: 0;
+    white-space: nowrap;
+}
+
+nav .nav-links .link {
+    margin-right: 28px;
+}
+
+.container .logo {
+    position: absolute;
+    left: calc(50% - 40px);
+}
+
+.container ul {
+    display: flex;
+    list-style: none;
+    align-items: center;
+}
+
+.container ul li:first-of-type {
+    margin-right: 15px;
+}
+
+.container ul li:last-of-type {
+    margin-left: 7px;
+}
+
+.fall_section {
+    background: #F0EFEB;
+    display: flex;
+    margin: auto;
+    align-items: center;
+}
+
+.fall_section .container {
+    max-width: 1064px;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.fall_section article {
+    align-items: flex-start;
+    flex-direction: column;
+}
+
+.fall_section article h2 {
+    font: 700 60px/normal 'Roboto', sans-serif;
+    color: #000;
+    margin-bottom: 42px;
+    margin-top: 90px;
+}
+
+.fall_section article p {
+    font: 400 24px/normal 'Roboto', sans-serif;
+    color: #000;
+    margin-bottom: 26px;
+}
+
+.fall_section article a {
+    font: 400 17px/normal 'Roboto', sans-serif;
+    color: #FFF;
+    display: inline-flex;
+    text-align: center;
+    text-decoration: none;
+    border-radius: 100px;
+    border: 1px solid #000;
+    background: #000;
+    padding: 7px 23px 9px 23px;
+    margin-bottom: 90px;
+}
+.fall_section img {
+    /*width: auto;*/
+    max-height: 100%;
+    max-width: 50%;
+}
+
+
+
