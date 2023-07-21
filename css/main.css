@@ -1,0 +1,106 @@
+.fall_section {
+  background: #F0EFEB;
+  display: flex;
+  margin: auto;
+  align-items: center; }
+
+.fall_section .container {
+  max-width: 1064px;
+  margin: auto;
+  display: flex;
+  justify-content: space-between;
+}
+
+.fall_section article {
+  align-items: flex-start;
+  flex-direction: column; }
+
+.fall_section article h1 {
+  font: 700 60px/normal 'Roboto', sans-serif;
+  color: #000;
+  margin-bottom: 42px;
+  margin-top: 90px;
+  max-width: 535px; }
+
+.fall_section article p {
+  font: 400 24px/normal 'Roboto', sans-serif;
+  color: #000;
+  margin-bottom: 26px; }
+
+.fall_section article a {
+  font: 400 17px/normal 'Roboto', sans-serif;
+  color: #FFF;
+  display: inline-flex;
+  text-align: center;
+  text-decoration: none;
+  border-radius: 100px;
+  border: 1px solid #000;
+  background: #000;
+  padding: 7px 23px 9px 23px;
+  margin-bottom: 90px; }
+
+.fall_img {
+  max-height: 100%;
+  max-width: 599px;
+  position: relative;
+  right: -100px;
+ }
+
+.our_guides {
+  background: white;
+  display: flex;
+  align-items: center;
+  justify-content: center; }
+
+.our_guides .container {
+  max-width: 1064px;
+  text-align: center; }
+
+.our_guides h2 {
+  color: #000;
+  font: 700 36px/normal 'Roboto', sans-serif;
+  margin-bottom: 27px; }
+
+.our_guides p {
+  color: #000;
+  font: 400 20px/normal 'Roboto', sans-serif;
+  margin-bottom: 47px; }
+
+.our_guides h4 {
+  color: #000;
+  font: 400 20px/normal 'Roboto', sans-serif;
+  margin-bottom: 87px; }
+
+.our_guides h3 {
+  margin-bottom: 52px; }
+
+.catalogue {
+  margin: auto;
+  display: flex;
+  align-items: center;
+  margin-bottom: 248px; }
+
+.catalogue img {
+  margin-bottom: 20px; }
+
+.catalogue article {
+  display: flex;
+  max-width: 315px; }
+
+.catalogue h4 {
+  font: 700 17px/normal 'Roboto', sans-serif;
+  color: #000;
+  margin-bottom: 10px;
+  padding: 0 100px; }
+
+.catalogue p {
+  font: 400 17px/normal 'Roboto', sans-serif;
+  color: #000;
+  margin-bottom: 10px; }
+
+.catalogue a {
+  font: 700 17px/normal 'Roboto', sans-serif;
+  color: #000;
+  text-decoration-line: underline; }
+
+/*# sourceMappingURL=main.css.map */
